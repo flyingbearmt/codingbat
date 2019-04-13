@@ -29,3 +29,9 @@
 	- real,double precision
 	- float（n）：精度至少为n
 	- null
+6. 对表的操作
+	- CREATE TABLE
+	- DROP TABLE ：删除属性
+ 	- ALTER TABLE： 修改属性
+7. 
+ 
