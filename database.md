@@ -33,5 +33,21 @@
 	- CREATE TABLE
 	- DROP TABLE ：删除属性
  	- ALTER TABLE： 修改属性
-7. 
- 
+
+####SQL查询语句
+
+1. 查询
+	SELECT FROM WHERE
+	默认是不去除重复的，如果想要去除重复，可以使用：
+	- select destinct _dept\_name_
+	from _instructurr_
+	- 可以显式的指明不去除，用all
+ 	- 可以使用 ＊ 表示所有的属性
+ 	- where 选出在from 子句中满足特定谓词的
+ 	- 可以使用 and，or，not，between
+ 	- from 是笛卡尔积
+ 	- 为关系和属性重新命名， as:
+ 		_old\_name_ as _new\_name_
+ 	- 字符串的运算，like （％：匹配任意子串，_匹配任意一个字符） 
+	- 	order by : ordered 顺序显示(desc 表示降序， asc 升序）默认是升序 
+	-  聚集函数： avg, min, max, sum, count
