@@ -1,4 +1,16 @@
 ##数据库：
+Complete SELECT query  
+SELECT DISTINCT column,   
+AGG\_FUNC(column\_or\_expression), …  
+FROM mytable  
+    JOIN another\_table  
+      ON mytable.column = another\_table.column  
+    WHERE constraint\_expression  
+    GROUP BY column  
+    HAVING constraint\_expression  
+    ORDER BY column ASC/DESC  
+    LIMIT count OFFSET COUNT;
+    
 1. 事务的四个特性：acid, 原子性（atomic),一致性（consistancy), 独立性（isolation）持久性（duarable）
 2. 数据库的基本操作
 	- 选择
