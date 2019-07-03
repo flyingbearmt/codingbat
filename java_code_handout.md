@@ -32,4 +32,8 @@ map.put(key, value) -- stores a new key/value pair in the map. Overwrites any ex
 
 map.containsKey(key) -- returns true if the key is in the map, false otherwise.
 
-map.remove(key) -- removes the key/value pair for this key if present. Does nothing if the key is not present.
+map.remove(key) -- removes the key/value pair for this key if present. Does nothing if the key is not present.  
+
+#### treemap
+在treemap中还有几个方法：   
+lowerEntry、floorEntry、ceilingEntry 和 higherEntry 分别返回与小于、小于等于、大于等于、大于给定键的键关联的 Map.Entry 对象，如果不存在这样的键，则返回 null。类似地，方法 lowerKey、floorKey、ceilingKey 和 higherKey 只返回关联的键。
